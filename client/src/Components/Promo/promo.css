@@ -1,0 +1,133 @@
+.promo {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  align-items: center;
+  max-width: 80%;
+  margin: 0 auto;
+}
+
+.promImg {
+  width: 60%;
+  height: auto;
+  margin: 1.6rem auto 0;
+  object-fit: contain;
+  border-radius: 1.2rem;
+  border: .5px solid rgb(226, 226, 224);
+  border: #1547d2 solid 1px;
+}
+
+.promImg2 {
+  width: 28%;
+  object-fit: contain;
+  border: #1547d2 solid 1.5px;
+  position: absolute;
+  left: 0;
+  top: 0;
+  border-radius: 1rem;
+}
+
+._promo_imgs {
+  /* display: flex; */
+  position: relative;
+}
+
+.promo .textDiv {
+  display: flex;
+  gap: 3.2rem;
+}
+
+.promo div p {
+  font-size: 1.2rem;
+  font-family: 'Archivo', sans-serif;
+  font-weight: 400;
+  display: flex;
+  align-items: center;
+}
+
+.cumLogos {
+  margin: 6rem auto;
+}
+
+.cumLogos div {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 3.2rem;
+}
+
+.cumLogos img {
+  width: 10.42rem;
+  object-fit: cover;
+}
+
+.cumLogos h5 {
+  font-size: 2.4rem;
+  font-weight: 500;
+  font-family: 'Archivo', sans-serif;
+  color: rgb(90, 92, 92);
+  width: 80%;
+  margin: 1.42rem auto;
+  letter-spacing: .3px;
+}
+
+.cumLogos h5 span {
+  font-style: italic;
+  font-family: 'Source Serif 4', serif;
+  color: #d4145a;
+}
+
+.checkIcon {
+  color: #1547d2;
+  font-size: 1.3rem;
+}
+
+@media screen and (max-width: 1042px) {
+  .cumLogos {
+    margin: 2.5rem auto 0;
+  }
+
+  .cumLogos div {
+    gap: 1.2rem;
+    flex-wrap: wrap;
+  }
+
+  @media screen and (max-width: 800px) {
+    @media screen and (max-width: 600px) {
+      .promo {
+        margin: 5rem auto 1rem;
+      }
+
+      .promo .textDiv {
+        gap: .7rem;
+      }
+
+      .promo div p {
+        font-size: .8rem;
+      }
+
+      .cumLogos {
+        margin: 4.42rem auto;
+      }
+
+      .cumLogos h5 {
+        font-size: 1.2rem;
+        font-weight: 400;
+        width: 99%;
+        margin: 1rem 0;
+      }
+
+
+
+      .cumLogos img {
+        width: 4.42rem;
+      }
+
+      .promImg {
+        width: 96%;
+        margin: 1rem auto 0;
+        border-radius: .42rem;
+      }
+    }
+  }
+}

@@ -1,0 +1,120 @@
+.hero {
+  margin: 2.5rem auto;
+  text-align: center;
+}
+
+.hero h2 {
+  font-size: 4rem;
+  width: 75%;
+  margin: auto;
+  font-family: 'Archivo', sans-serif;
+  color: #201116;
+}
+
+.hero h2 span {
+  font-style: italic;
+  font-size: 4.5rem;
+  font-weight: 600;
+  font-family: 'Source Serif 4', serif;
+}
+
+.hero p {
+  width: 65%;
+  font-size: 1.8rem;
+  margin: 2rem auto;
+  font-family: 'Archivo', sans-serif;
+  line-height: 1.3;
+  color: rgb(103, 107, 107);
+}
+
+.hero p span {
+  font-style: italic;
+  color: black;
+  font-family: 'Source Serif 4', serif;
+  font-size: 2rem;
+  font-weight: 600;
+}
+
+.emailDiv {
+  max-width: 65%;
+  margin: 2rem auto;
+  display: flex;
+  justify-content: center;
+  gap: 1.2rem;
+}
+
+.emailDiv input {
+  border-radius: .6rem;
+  width: 40%;
+  border: #a034f6 solid 2px;
+  padding: .2rem .67rem;
+}
+
+.emailDiv input:focus {
+  border: transparent;
+}
+
+.emailDiv button {
+  border-radius: .6rem;
+  border: transparent;
+  background-color: #a034f6;
+  font-size: 1.4rem;
+  padding: .8rem 1.2rem;
+  font-family: 'Archivo', sans-serif;
+  font-weight: 700;
+  cursor: pointer;
+  color: white;
+  font-style: normal;
+}
+
+
+@media screen and (max-width: 1042px) {
+  .hero h2 {
+    width: 80%;
+  }
+
+  @media screen and (max-width: 800px) {
+    .hero h2 {
+      width: 85%;
+    }
+
+    .emailDiv {
+      max-width: 80%;
+    }
+
+    @media screen and (max-width: 600px) {
+      .hero {
+        margin: 3.5rem 0 3rem;
+      }
+
+      .hero h2 {
+        font-size: 1.8rem;
+        width: 98%;
+        line-height: 1.2;
+      }
+
+      .hero h2 span {
+        font-size: 2rem;
+      }
+
+      .hero p {
+        width: 95%;
+        margin: 1.6rem auto;
+        font-size: 1rem;
+      }
+
+      .emailDiv {
+        max-width: 85%;
+        flex-direction: column;
+      }
+
+      .emailDiv input {
+        width: 100%;
+      }
+
+      .hero p span {
+        font-size: 1rem;
+      }
+    }
+  }
+}

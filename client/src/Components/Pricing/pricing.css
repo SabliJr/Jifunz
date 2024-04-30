@@ -1,0 +1,15 @@
+.pricing {
+    margin: 3rem auto;
+    background-color: #f7f7f7;
+    border-radius: 1rem;
+}
+
+._pricing_divs div:nth-child(1),
+._pricing_divs div:nth-child(3) {
+    background-color: white;
+  }
+  
+  ._pricing_divs div:nth-child(2) {
+    background-color: #272b31;
+  }
+ 
