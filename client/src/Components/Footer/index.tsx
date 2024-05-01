@@ -16,26 +16,29 @@ const Index = () => {
     <footer className='Footer'>
       <main className='footerMain'>
         <div className='logoAndSM'>
-          <h1>Jifunz</h1> <p>by Sabli Jr.</p>
-          <div className='SocialIcons'>
-            <a
-              href='https://www.instagram.com/sabli.jr/'
-              target='_blank'
-              rel='noopener noreferrer'>
-              <BsInstagram />
-            </a>
-            <a
-              href='https://twitter.com/sablijr'
-              target='_blank'
-              rel='noopener noreferrer'>
-              <RiTwitterXLine />
-            </a>
-            <a
-              href='https://www.linkedin.com/in/sablijr/'
-              target='_blank'
-              rel='noopener noreferrer'>
-              <GrLinkedinOption />
-            </a>
+          <h1>Jifunz</h1> 
+          <div>
+            <p className="sabli">by Sabli Jr.</p>
+            <div className='SocialIcons'>
+              <a
+                href='https://www.instagram.com/sabli.jr/'
+                target='_blank'
+                rel='noopener noreferrer'>
+                <BsInstagram />
+              </a>
+              <a
+                href='https://twitter.com/sablijr'
+                target='_blank'
+                rel='noopener noreferrer'>
+                <RiTwitterXLine />
+              </a>
+              <a
+                href='https://www.linkedin.com/in/sablijr/'
+                target='_blank'
+                rel='noopener noreferrer'>
+                <GrLinkedinOption />
+              </a>
+            </div>
           </div>
         </div>
         <div className='footerLinks'>

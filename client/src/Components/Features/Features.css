@@ -4,6 +4,7 @@
   gap: 1.2rem;
   grid-template-columns: repeat(3, 1fr);
   grid-template-rows: repeat(auto, 1fr); */
+  margin: 2rem 0;
 }
 
 .wishListIcon {
@@ -139,12 +140,19 @@
 ._features_divs {
   display: flex;
   justify-content: space-between;
-  gap: 1rem;
+  gap: 1.8rem;
   max-width: 100%;
+  margin: 2rem 0;
 }
 
 ._features_divs div {
-  width: 22rem;
+  width: 100%;
+  padding: 1rem 1.2rem;
+  border-radius: .6rem;
+}
+
+._features_divs div h4 {
+  margin: .5rem 0;
 }
 
 ._features_divs div:nth-child(1) {
@@ -159,6 +167,28 @@
   background-color: #02c0c6;
 }
 
+._features_title {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+._features_title h3 {
+  font-size: 2rem;
+  margin: .5rem auto;
+}
+
+._features_title p {
+  font-size: 1.2rem;
+  color: #4f4f4f;
+}
+
+._speaking_img {
+  width: 100%;
+  margin: 1.2rem 0;
+  border-radius: .3rem;
+}
 
 @media screen and (max-width: 1042px) {
   @media screen and (max-width: 800px) {

@@ -1,7 +1,8 @@
 .pricing {
-    margin: 3rem auto;
-    background-color: #f7f7f7;
+    margin: 8rem auto;
+    background-color: #e4e4e4;
     border-radius: 1rem;
+    padding: 1rem 1.2rem;
 }
 
 ._pricing_divs div:nth-child(1),
@@ -13,3 +14,58 @@
     background-color: #272b31;
   }
  
+  ._pricing_title {
+    display: flex;
+    flex-direction: column;
+    gap: .6rem;
+    margin: 1.6rem auto 3rem;
+    justify-content: center;
+    align-items: center;
+  }
+
+  ._princing_divs {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 2rem;
+    width: 70%;
+    margin: 1rem auto;
+  }
+
+  .pricing_item h4,
+  .pricing_item2 h4 {
+    margin: .5rem 0;
+  }
+
+  .pricing_item,
+  .pricing_item2 {
+    background-color: #ffff;
+    border-radius: .6rem;
+    padding: 1rem;
+    display: flex;
+    gap: 2rem;
+    flex-direction: column;
+  }
+
+  .pricing_item2 {
+    background-color: #272b31;
+    color: #ffff;
+  }
+
+  .pricing_item ul li,
+  .pricing_item2 ul li {
+    font-size: .8rem;
+    list-style: none;
+    margin: .8rem 0;
+  }
+
+  .pricing_item button,
+  .pricing_item2 button {
+    color: #ffff;
+    background-color: #a034f6;
+    border: transparent;
+    border-radius: .42rem;
+    padding: .3rem 0;
+    font-size: 1.3rem;
+    cursor: pointer;
+  }
