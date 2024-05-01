@@ -46,7 +46,7 @@
 }
 
 .cumLogos {
-  margin: 6rem auto;
+  margin: 6rem auto 3rem;
 }
 
 .cumLogos div {
@@ -67,7 +67,7 @@
   font-family: 'Archivo', sans-serif;
   color: rgb(90, 92, 92);
   width: 80%;
-  margin: 1.42rem auto;
+  margin: 0 auto;
   letter-spacing: .3px;
 }
 

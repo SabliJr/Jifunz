@@ -19,7 +19,6 @@
   display: flex;
   gap: .8rem;
   font-size: 1.3rem;
-  margin-left: .6rem;
   color: #5c5c5cdb;
   cursor: pointer;
 }
@@ -68,6 +67,10 @@
   gap: .3rem;
   align-items: center;
   cursor: pointer;
+}
+
+.sabli {
+  margin: .42rem 0;
 }
 
 @media screen and (max-width: 1042px) {
