@@ -18,8 +18,8 @@ const Index = () => {
             <div className="_princing_divs">
                 <div className="pricing_item">
                     <div>
-                        <h4>Free</h4>
-                        <h2>$0</h2>
+                        <h4>Basic</h4>
+                        <h2>$7.99</h2>
                     </div>
                     <ul>
                         <li> 
@@ -61,7 +61,7 @@ const Index = () => {
                 <div className="pricing_item2">
                     <div>
                         <h4>Sericous Lerener</h4>
-                        <h2>$9.99</h2>
+                        <h2>$14.99</h2>
                     </div>
                     <ul>
                     <li>
@@ -100,7 +100,7 @@ const Index = () => {
                 <div className="pricing_item">
                     <div>
                         <h4>Fully Committed</h4>
-                        <h2>$16.99</h2>
+                        <h2>$19.99</h2>
                     </div>
                     <ul>
                     <li>
